@@ -1,7 +1,7 @@
 import pytest
-from swcpy import SWCClient
-from swcpy import SWCConfig
-from swcpy.schemas import League, Team, Player, Performance
+from pyswc import SWCClient
+from pyswc import SWCConfig
+from pyswc.schemas import League, Team, Player, Performance
 from io import BytesIO
 import pyarrow.parquet as pq
 import pandas as pd
